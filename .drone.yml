@@ -5,7 +5,7 @@ steps:
 - name: test
   image: alpine:3.10.0
   commands:
-  - apk add php7 composer
+  - apk add php7 php7-dom composer
   - composer install
   when:
     event:
