@@ -1,0 +1,17 @@
+{
+    "name": "geraldo-andrade/php-docker-boilerplate",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Geraldo Andrade",
+            "email": "geraldo@geraldoandrade.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8.0.0"
+    }
+}

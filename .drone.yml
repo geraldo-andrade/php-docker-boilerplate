@@ -2,10 +2,11 @@ kind: pipeline
 name: default
 
 steps:
-- name: build
+- name: test
   image: alpine:3.10.0
   commands:
-  - ls -lash
+  - apk add php7 composer
+  - compose install
   when:
     event:
     - push
