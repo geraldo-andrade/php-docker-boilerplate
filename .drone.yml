@@ -6,7 +6,7 @@ steps:
   image: alpine:3.10.0
   commands:
   - apk add php7 composer
-  - compose install
+  - composer install
   when:
     event:
     - push
