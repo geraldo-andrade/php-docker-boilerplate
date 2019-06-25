@@ -1,0 +1,11 @@
+kind: pipeline
+name: default
+
+steps:
+- name: build
+  image: alpine:3.10.0
+  commands:
+  - ls -lash
+  when:
+    event:
+    - push
