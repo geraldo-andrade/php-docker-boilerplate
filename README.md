@@ -1,1 +1,1 @@
-# php-docker-boilerplate
+# php-docker-boilerplate [![Build Status](https://cloud.drone.io/api/badges/geraldo-andrade/php-docker-boilerplate/status.svg)](https://cloud.drone.io/geraldo-andrade/php-docker-boilerplate)
