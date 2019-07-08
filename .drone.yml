@@ -10,3 +10,19 @@ steps:
   when:
     event:
     - push
+
+- name: "Publish Image"
+  image: plugins/docker
+  settings:
+    repo: geraldoandradee/php-docker-boilerplate
+    username:
+        from_secret: DOCKER_USERNAME
+    password:
+        from_secret: DOCKER_PASSWORD
+    file: Dockerfile
+    auto_tag: true
+  when:
+    event:
+    - tag
+    status: 
+    - success
